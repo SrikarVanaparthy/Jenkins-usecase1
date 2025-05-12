@@ -12,7 +12,7 @@ pipeline {
         stage('Run Python Script') {
             steps {
                 echo 'Running users1.py...'
-                // sh 'python3 users1.py'
+                sh 'python3 users1.py'
             }
         }
     }
